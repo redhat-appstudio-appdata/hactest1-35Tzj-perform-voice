@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hacexample-8ztb
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:35Tzj-hacexample-8ztb
+      - image: quay.io/redhat-appstudio/user-workload@sha256:8d74164e6d585f09534fa6a033ae5c3c741dfc3a77c4d625b5172dd14e89be9d
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
