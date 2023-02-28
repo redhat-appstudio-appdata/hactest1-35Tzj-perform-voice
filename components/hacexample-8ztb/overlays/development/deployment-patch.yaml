@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hacexample-8ztb
+  namespace: utherp0-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:8d74164e6d585f09534fa6a033ae5c3c741dfc3a77c4d625b5172dd14e89be9d
+        name: container-image
+        resources: {}
+status: {}
